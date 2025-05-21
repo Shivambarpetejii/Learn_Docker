@@ -42,9 +42,7 @@ Docker is a platform that revolutionizes application development through **conta
 
 Docker solves the fundamental challenge: **"It works on my machine"** → **"It works everywhere"**
 
-<div align="center">
-  <img src="https://api.placeholder.com/700/300" alt="Docker Transformation" width="700"/>
-</div>
+
 
 ### ✨ Key Innovations
 
@@ -75,9 +73,7 @@ Docker solves the fundamental challenge: **"It works on my machine"** → **"It 
 - Each has its own filesystems, processes, and network interfaces
 - Share the host OS kernel but remain isolated
 
-<div align="center">
-  <img src="https://api.placeholder.com/700/350" alt="Images vs Containers" width="700"/>
-</div>
+
 
 ### 🗂️ Registries
 **Registries** store and distribute Docker images:
@@ -91,9 +87,6 @@ Docker solves the fundamental challenge: **"It works on my machine"** → **"It 
 
 Docker employs a client-server architecture with several distinct components working together:
 
-<div align="center">
-  <img src="https://api.placeholder.com/750/400" alt="Docker Architecture" width="750"/>
-</div>
 
 ### 🎮 Docker Client
 The command-line interface that users interact with to:
@@ -131,9 +124,7 @@ The low-level container runtime that:
 
 ## 🔄 Containers vs Virtual Machines
 
-<div align="center">
-  <img src="https://api.placeholder.com/800/350" alt="Containers vs VMs Architecture" width="800"/>
-</div>
+
 
 ### 🧠 Architectural Comparison
 
@@ -190,9 +181,7 @@ docker inspect containerId         # View container details
 
 ### 🔄 Container Lifecycle Visualization
 
-<div align="center">
-  <img src="https://api.placeholder.com/750/300" alt="Container Lifecycle" width="750"/>
-</div>
+
 
 ### 🧪 Interactive Example: Web Server
 
@@ -278,9 +267,6 @@ CMD ["node", "dist/server.js"]
 
 ### 📏 Layer Optimization
 
-<div align="center">
-  <img src="https://api.placeholder.com/700/350" alt="Docker Layers" width="700"/>
-</div>
 
 > 🔍 **Key Insight**: Each Dockerfile instruction creates a layer in the image. Optimizing layers improves build time and reduces image size.
 
@@ -377,9 +363,7 @@ docker-compose up -d --scale api=3
 
 ### 🧩 Service Dependencies Visualization
 
-<div align="center">
-  <img src="https://api.placeholder.com/700/350" alt="Service Dependencies" width="700"/>
-</div>
+
 
 <hr>
 
@@ -389,9 +373,7 @@ Docker provides several options for persisting data beyond container lifecycle.
 
 ### 🧰 Storage Options Compared
 
-<div align="center">
-  <img src="https://api.placeholder.com/700/350" alt="Storage Options" width="700"/>
-</div>
+
 
 | Storage Type | Use Case | Advantages | Limitations |
 |:-------------|:---------|:-----------|:------------|
@@ -447,9 +429,7 @@ Docker networking enables isolated communication between containers and with ext
 
 ### 🧠 Network Types Visualization
 
-<div align="center">
-  <img src="https://api.placeholder.com/700/350" alt="Network Types" width="700"/>
-</div>
+
 
 ### 📊 Network Types Compared
 
@@ -526,9 +506,6 @@ docker service update --image nginx:latest myapp_web
 
 The industry-standard container orchestration platform:
 
-<div align="center">
-  <img src="https://api.placeholder.com/700/350" alt="Kubernetes Architecture" width="700"/>
-</div>
 
 **Key capabilities:**
 - **Automated rollouts and rollbacks**
@@ -573,9 +550,7 @@ The industry-standard container orchestration platform:
 
 ### 🔄 Continuous Integration/Deployment
 
-<div align="center">
-  <img src="https://api.placeholder.com/700/350" alt="CI/CD Pipeline" width="700"/>
-</div>
+
 
 1. **Source Code Repository**
    - Developers push code changes
@@ -598,9 +573,7 @@ The industry-standard container orchestration platform:
 
 Docker excels at running microservices-based applications:
 
-<div align="center">
-  <img src="https://api.placeholder.com/700/400" alt="Microservices Architecture" width="700"/>
-</div>
+
 
 **Key benefits:**
 - **Independent Scaling**: Scale services based on demand
@@ -667,8 +640,6 @@ Docker helps organizations achieve DevOps culture and practices:
 <hr>
 
 <div align="center">
-  <p>Built with ❤️ by the Docker community</p>
-  <a href="https://docs.docker.com/">Documentation</a> •
-  <a href="https://www.docker.com/community/">Community</a> •
-  <a href="https://github.com/docker/docker-ce">GitHub</a>
+  <p>Shivam Barpete</p>
+  
 </div>
