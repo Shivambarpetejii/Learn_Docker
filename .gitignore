@@ -1,0 +1,28 @@
+# Node.js dependencies
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+
+# Environment variables
+.env
+
+# Docker
+docker-compose.override.yml
+.dockerignore
+
+# Logs
+logs
+*.log
+logs/**/*.log
+
+# OS-specific
+.DS_Store
+Thumbs.db
+
+# VSCode settings
+.vscode/
+
+# MongoDB data volume (if mounted to host in future)
+mongo-data/

@@ -1,0 +1,23 @@
+{
+  "name": "learn_docker",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "dev": "node index.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Shivambarpetejii/Learn_Docker.git"
+  },
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/Shivambarpetejii/Learn_Docker/issues"
+  },
+  "homepage": "https://github.com/Shivambarpetejii/Learn_Docker#readme",
+  "description": "",
+  "dependencies": {
+    "express": "^5.1.0",
+    "mongoose": "^8.15.0"
+  }
+}
